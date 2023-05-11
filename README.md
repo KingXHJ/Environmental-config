@@ -1,4 +1,4 @@
-# X-EnvironmentalConfig
+# X-EnvironmentConfig
 Some environmental configuration experience and note them down
 
 # 目录
