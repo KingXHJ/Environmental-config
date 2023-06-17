@@ -2,10 +2,14 @@
 Some environmental configuration experience and note them down
 
 # 目录
+- [配置zsh & oh-my-zsh](#配置zsh--oh-my-zsh)
 - [Config powershell with command autosuggestion](#config-powershell-with-command-autosuggestion)
 - [Texlive vscode](#texlive-vscode)
 - [VM Fusion Install VM On Apple Silicon](#vm-fusion-install-vm-on-apple-silicon)
 
+## 配置zsh & oh-my-zsh
+
+zsh和oh my zsh的配置方法请见[zsh deploy](./Zsh-oh-my-zsh-Deployment/zsh_deploy.sh)
 
 ## Config powershell with command autosuggestion
 
