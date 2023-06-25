@@ -4,6 +4,7 @@ Some environmental configuration experience and note them down
 # 目录
 - [配置zsh & oh-my-zsh](#配置zsh--oh-my-zsh)
 - [Config powershell with command autosuggestion](#config-powershell-with-command-autosuggestion)
+- [Config Visual Studio Code With Props](#config-visual-studio-code-with-props)
 - [Texlive vscode](#texlive-vscode)
 - [VM Fusion Install VM On Apple Silicon](#vm-fusion-install-vm-on-apple-silicon)
 
@@ -30,6 +31,26 @@ winget install Microsoft.PowerShell
 
 Find the powershell 7 shortcut and replace the `target` with `"C:\Program Files\PowerShell\7\pwsh.exe" -noe -c "&{  Set-PSReadLineOption -PredictionSource History -ShowToolTips}"  -WorkingDirectory ~` 
 
+
+## Config Visual Studio Code With Props
+1. OpenCV
+    1. 系统环境变量
+        - (你的磁盘名):\Opencv460\opencv\build\x64\vc15\bin
+    1. VC++目录 -> 包含目录
+    1. VC++目录 -> 库目录
+    1. 链接器 -> 附加依赖项
+1. OpenXLSX
+    1. VC++目录 -> 包含目录
+    1. VC++目录 -> 库目录
+    1. 链接器 -> 附加依赖项
+
+1. PCL
+    1. 系统环境变量
+        - (你的磁盘名):\PCL\PCL 1.12.1\bin
+        - (你的磁盘名):\PCL\PCL 1.12.1\3rdParty\OpenNI2\Tools
+        - (你的磁盘名):\PCL\PCL 1.12.1\3rdParty\FLANN\bin
+        - (你的磁盘名):\PCL\PCL 1.12.1\3rdParty\Qhull\bin
+        - (你的磁盘名):\PCL\PCL 1.12.1\3rdParty\VTK\bin
 
 
 
