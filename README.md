@@ -29,7 +29,7 @@ winget install Microsoft.PowerShell
 
 2. Config the autosuggestion autostart
 
-Find the powershell 7 shortcut and replace the `target` with `"C:\Program Files\PowerShell\7\pwsh.exe" -noe -c "&{  Set-PSReadLineOption -PredictionSource History -ShowToolTips}"  -WorkingDirectory ~` 
+Find the powershell 7 shortcut(快捷方式), right click `property` and replace the `target` with `"C:\Program Files\PowerShell\7\pwsh.exe" -noe -c "&{  Set-PSReadLineOption -PredictionSource History -ShowToolTips}"  -WorkingDirectory ~` 
 
 
 ## Config Visual Studio Code With Props
