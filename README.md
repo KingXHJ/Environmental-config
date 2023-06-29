@@ -43,6 +43,7 @@ Find the powershell 7 shortcut(快捷方式), right click `property` and replace
     1. VC++目录 -> 包含目录
     1. VC++目录 -> 库目录
     1. 链接器 -> 输入 -> 附加依赖项
+    1. 更改：C/C++ -> 语言 -> C++语言标准 -> ISO C++ 17 标准（/std:c++17）
 
 1. PCL
     1. 系统环境变量
