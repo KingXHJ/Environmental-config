@@ -38,11 +38,11 @@ Find the powershell 7 shortcut(快捷方式), right click `property` and replace
         - (你的磁盘名):\Opencv460\opencv\build\x64\vc15\bin
     1. VC++目录 -> 包含目录
     1. VC++目录 -> 库目录
-    1. 链接器 -> 附加依赖项
+    1. 链接器 -> 输入 -> 附加依赖项
 1. OpenXLSX
     1. VC++目录 -> 包含目录
     1. VC++目录 -> 库目录
-    1. 链接器 -> 附加依赖项
+    1. 链接器 -> 输入 -> 附加依赖项
 
 1. PCL
     1. 系统环境变量
