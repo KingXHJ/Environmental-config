@@ -7,10 +7,13 @@ Some environmental configuration experience and note them down
 - [Config Visual Studio Code With Props](#config-visual-studio-code-with-props)
 - [Texlive vscode](#texlive-vscode)
 - [VM Fusion Install VM On Apple Silicon](#vm-fusion-install-vm-on-apple-silicon)
+- [VScode markdown print pdf without formular efficient](#vscode-markdown-print-pdf-without-formular-efficient)
 
 ## 配置zsh & oh-my-zsh
 
 zsh和oh my zsh的配置方法请见[zsh deploy](./Zsh-oh-my-zsh-Deployment/zsh_deploy.sh)
+
+[But Windows has another way](./Zsh-oh-my-zsh-Deployment/zsh_deploy_windows.md)
 
 ## Config powershell with command autosuggestion
 
@@ -77,3 +80,14 @@ LaTex language support
 An important instruction
 
 > The PDF gives all details for users to install virtual machines on apple silicon!
+
+
+## VScode markdown print pdf without formular efficient
+1. Install ```Markdown PDF``` in VScode
+1. Find the file in path ```C://Users/<username>/.vscode/extensions/yzane.markdown-pdf-1.4.1/template/template.html```
+1. Add 
+    ```
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
+    ```
+    before ```</html>```, after ```</body>```
