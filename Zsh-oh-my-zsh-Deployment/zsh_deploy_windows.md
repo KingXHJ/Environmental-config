@@ -16,4 +16,4 @@
         fi
         ```
     1. ```source ~/.bashrc```
-1. step into [install plugins](./zsh_deploy.sh)
+1. Step into [install plugins](./zsh_deploy.sh)
