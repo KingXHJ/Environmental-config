@@ -13,7 +13,7 @@ Some environmental configuration experience and note them down
 
 zsh和oh my zsh的配置方法请见[zsh deploy](./Zsh-oh-my-zsh-Deployment/zsh_deploy.sh)
 
-[But Windows has another way](./Zsh-oh-my-zsh-Deployment/zsh_deploy_windows.md)
+But Windows has [another way](./Zsh-oh-my-zsh-Deployment/zsh_deploy_windows.md)
 
 ## Config powershell with command autosuggestion
 
