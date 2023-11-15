@@ -22,6 +22,9 @@ zsh和oh my zsh的配置方法请见[zsh deploy](./Zsh-oh-my-zsh-Deployment/zsh_
 But Windows has [another way](./Zsh-oh-my-zsh-Deployment/zsh_deploy_windows.md)
 
 
+[返回目录](#目录)
+
+
 ## Config powershell with command autosuggestion
 
 1. First [download powershell 7](https://zhuanlan.zhihu.com/p/401439255)
@@ -40,6 +43,9 @@ winget install Microsoft.PowerShell
 2. Config the autosuggestion autostart
 
 Find the powershell 7 shortcut(快捷方式), right click `property` and replace the `target` with `"C:\Program Files\PowerShell\7\pwsh.exe" -noe -c "&{  Set-PSReadLineOption -PredictionSource History -ShowToolTips}"  -WorkingDirectory ~` 
+
+
+[返回目录](#目录)
 
 
 ## Config Visual Studio Code With Props
@@ -64,6 +70,9 @@ Find the powershell 7 shortcut(快捷方式), right click `property` and replace
         - (你的磁盘名):\PCL\PCL 1.12.1\3rdParty\VTK\bin
 
 
+[返回目录](#目录)
+
+
 ## Texlive vscode
 
 ### 下载Texlive
@@ -83,10 +92,16 @@ LaTex language support
 配置[settings.json文件](./Texlive%20vscode/settings.json)
 
 
+[返回目录](#目录)
+
+
 ## VM Fusion Install VM On Apple Silicon
 An important instruction
 
 > The PDF gives all details for users to install virtual machines on apple silicon!
+
+
+[返回目录](#目录)
 
 
 ## VScode markdown print pdf without formular efficient
@@ -98,6 +113,9 @@ An important instruction
     <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
     ```
     before ```</html>```, after ```</body>```
+
+
+[返回目录](#目录)
 
 
 ## pip 使用国内源
@@ -138,3 +156,6 @@ pip install -i http://pypi.douban.com/simple/--trusted-host pypi.douban.com  #�
         trusted-host = https://pypi.tuna.tsinghua.edu.cn  # trusted-host 此参数是为了避免麻烦，否则使用的时候可能会提示不受信任
         ```
     1. 然后保存退出即可。
+
+
+[返回目录](#目录)
