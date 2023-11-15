@@ -6,14 +6,21 @@ Some environmental configuration experience and note them down
 - [Config powershell with command autosuggestion](#config-powershell-with-command-autosuggestion)
 - [Config Visual Studio Code With Props](#config-visual-studio-code-with-props)
 - [Texlive vscode](#texlive-vscode)
+    - [下载Texlive](#下载texlive)
+    - [安装扩展](#安装扩展)
+    - [Settings.json](#settingsjson)
 - [VM Fusion Install VM On Apple Silicon](#vm-fusion-install-vm-on-apple-silicon)
 - [VScode markdown print pdf without formular efficient](#vscode-markdown-print-pdf-without-formular-efficient)
+- [pip 使用国内源](#pip-使用国内源)
+    - [临时使用](#临时使用)
+    - [永久使用](#永久使用)
 
 ## 配置zsh & oh-my-zsh
 
 zsh和oh my zsh的配置方法请见[zsh deploy](./Zsh-oh-my-zsh-Deployment/zsh_deploy.sh)
 
 But Windows has [another way](./Zsh-oh-my-zsh-Deployment/zsh_deploy_windows.md)
+
 
 ## Config powershell with command autosuggestion
 
@@ -57,23 +64,23 @@ Find the powershell 7 shortcut(快捷方式), right click `property` and replace
         - (你的磁盘名):\PCL\PCL 1.12.1\3rdParty\VTK\bin
 
 
-
-
 ## Texlive vscode
 
 ### 下载Texlive
+
 ```
 Tsinghua Open Source Mirror
 ```
 
 ### 安装扩展
+
 ```
 LaTex Workshop
 LaTex language support
 ```
 
 ### Settings.json
-配置settings.json文件
+配置[settings.json文件](./Texlive%20vscode/settings.json)
 
 
 ## VM Fusion Install VM On Apple Silicon
@@ -91,3 +98,43 @@ An important instruction
     <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
     ```
     before ```</html>```, after ```</body>```
+
+
+## pip 使用国内源
+
+```
+清华大学：https://pypi.tuna.tsinghua.edu.cn/simple
+阿里云：http://mirrors.aliyun.com/pypi/simple/
+豆瓣：http://pypi.douban.com/simple/
+```
+
+### 临时使用
+
+```sh
+pip install -i http://pypi.douban.com/simple/ numpy
+pip install -i http://pypi.douban.com/simple/--trusted-host pypi.douban.com  #此参数“--trusted-host”表示信任，如果上一个提示不受信任，就使用这个
+```
+
+### 永久使用
+
+1. Linux平台安装方式：
+    - 创建pip.conf文件
+    1. 首先创建```.pip```目录：
+        ```sh
+        cd ~/.pip   # 运行此命令切换目录
+        ```
+
+    1. 在 .pip目录下创建一个 pip.conf 文件，如下：
+
+    1. 编辑 pip.conf 文件
+        ```sh
+        sudo vi ~/.pip/pip.conf
+        ```
+    1. 写入以下内容：
+        ```sh
+        [global] 
+        index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+        [install]
+        trusted-host = https://pypi.tuna.tsinghua.edu.cn  # trusted-host 此参数是为了避免麻烦，否则使用的时候可能会提示不受信任
+        ```
+    1. 然后保存退出即可。
