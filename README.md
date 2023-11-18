@@ -139,21 +139,21 @@ pip install -i http://pypi.douban.com/simple/--trusted-host pypi.douban.com  #�
     - 创建pip.conf文件
     1. 首先创建```.pip```目录：
         ```sh
-        cd ~/.pip   # 运行此命令切换目录
+        mkdir ~/.pip
+        cd ~/.pip
         ```
 
-    1. 在 .pip目录下创建一个 pip.conf 文件，如下：
-
-    1. 编辑 pip.conf 文件
+    1. 在 .pip目录下创建一个 pip.conf 文件并编辑:
         ```sh
-        sudo vi ~/.pip/pip.conf
+        sudo vim pip.conf
         ```
     1. 写入以下内容：
         ```sh
         [global] 
         index-url = https://pypi.tuna.tsinghua.edu.cn/simple
         [install]
-        trusted-host = https://pypi.tuna.tsinghua.edu.cn  # trusted-host 此参数是为了避免麻烦，否则使用的时候可能会提示不受信任
+        trusted-host = https://pypi.tuna.tsinghua.edu.cn
+        # trusted-host 此参数是为了避免麻烦，否则使用的时候可能会提示不受信任
         ```
     1. 然后保存退出即可。
 
