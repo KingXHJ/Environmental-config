@@ -33,4 +33,9 @@ curl -X POST https://xllama2.kingxhj.eu.org/ -d '{"messages": [{ "role": "system
 实现交互
 
 
+## 补充
+
+```index.js```由claude[生成](./ClaudeCorrectJavaScript.md)
+
+
 *[返回目录](#目录)*
