@@ -22,7 +22,15 @@
 
 ## 使用命令
 
-- 使用命令```curl -X POST https://example.com/ -d '{"prompt":"Write a poem about clouds"}' | jq -r .response```实现交互
+使用命令
+
+```sh
+curl -X POST https://example.com/ -d '{"prompt":"Write a poem about clouds"}' | jq -r .response
+
+curl -X POST https://xllama2.kingxhj.eu.org/ -d '{"messages": [{ "role": "system", "content": "You are a helpful assistant." }, { "role": "user", "content": "Who won the world series in 2020?" }]}' | jq -r .response
+```
+
+实现交互
 
 
 *[返回目录](#目录)*
