@@ -50,8 +50,8 @@ FRP 无法直接穿过 GFW，会被墙的。
     sudo vim /etc/frp/frpc.ini
     sudo vim /etc/frp/frps.ini
     ```
-    1. [frpc.ini](./frpc.ini)
-    1. [frps.ini](./frps.ini)
+    1. [frpc.ini](./example/frpc.ini)
+    1. [frps.ini](./example/frps.ini)
 
 1. 将 ```frpc.service(frps.service)``` 创建在 ```/lib/systemd/system/``` 目录下
     ```sh
@@ -59,8 +59,8 @@ FRP 无法直接穿过 GFW，会被墙的。
     sudo vim /lib/systemd/system/frps.service
     ```
 
-    1. [frpc.service](./frpc.service)
-    1. [frpc.service](./frps.service)
+    1. [frpc.service](./example/frpc.service)
+    1. [frpc.service](./example/frps.service)
 
 ## 启动
 
