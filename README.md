@@ -11,3 +11,4 @@ Some environmental configuration experience and note them down
 - [VScode markdown print pdf without formular efficient](./VScode%20Markdown/README.md)
 - [pip 使用国内源](./Pip/README.md)
 - [配置Cloudflare AI Worker](./Cloudflare%20AI%20Worker/README.md)
+- [FRP Setup](./FRP/README.md)

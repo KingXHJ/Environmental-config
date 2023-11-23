@@ -3,6 +3,7 @@
 ## 目录
 - [Prompt](#prompt)
 - [Answer](#answer)
+- [返回上一级README](../README.md)
 
 ## Prompt
 我是一名大语言模型用户，我想使用cloudflare的worker功能为我代理Llama2语言模型。cloudflare官方给出的java script示例如下所示：
