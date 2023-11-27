@@ -10,4 +10,5 @@ Some environmental configuration experience and note them down
 - [VM Fusion Install VM On Apple Silicon](./VM%20Fusion%20Install%20VM%20On%20Apple%20Silicon/README.md)
 - [pip 使用国内源](./Pip/README.md)
 - [conda 环境整体打包](./Conda%20Pack/README.md)
+- [FRP Setup](./FRP/README.md)
 - [配置 Cloudflare AI Worker](./Cloudflare%20AI%20Worker/README.md)
