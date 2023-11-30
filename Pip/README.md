@@ -44,7 +44,10 @@ pip install -i http://pypi.douban.com/simple/--trusted-host pypi.douban.com  #�
         trusted-host = https://pypi.tuna.tsinghua.edu.cn
         # trusted-host 此参数是为了避免麻烦，否则使用的时候可能会提示不受信任
         ```
-    1. 然后保存退出即可。
+    1. 然后保存退出即可
+
+1. Windows平台安装方式：
+    1. 只有第一步与Linux不同：新建 pip 配置文件夹，直接在 user 用户目录中创建一个名为 pip 的文件夹 (即 %HOMEPATH%\pip )
 
 
 *[返回目录](#目录)*
