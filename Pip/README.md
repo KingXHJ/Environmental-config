@@ -32,7 +32,7 @@ pip install -i http://pypi.douban.com/simple/--trusted-host pypi.douban.com  #�
         cd ~/.pip
         ```
 
-    1. 在 .pip目录下创建一个 pip.conf 文件并编辑:
+    1. 在 .pip 目录下创建一个 pip.conf 文件并编辑:
         ```sh
         sudo vim pip.conf
         ```
@@ -47,7 +47,9 @@ pip install -i http://pypi.douban.com/simple/--trusted-host pypi.douban.com  #�
     1. 然后保存退出即可
 
 1. Windows平台安装方式：
-    1. 只有第一步与Linux不同：新建 pip 配置文件夹，直接在 user 用户目录中创建一个名为 pip 的文件夹 (即 %HOMEPATH%\pip )
+    1. 新建 pip 配置文件夹，直接在 user 用户目录中创建一个名为 pip 的文件夹 (即 %HOMEPATH%\pip )
+    1. 在 pip 目录下创建一个 pip.ini 文件并编辑
+    1. 其余步骤同 Linux 安装方式
 
 
 *[返回目录](#目录)*
