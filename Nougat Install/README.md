@@ -38,3 +38,8 @@ options:
                         Provide page numbers like '1-4,7' for pages 1 through 4 and page 7. Only works for single PDFs.
 ```
 
+Q&A:
+1. nltk_data:
+  1. 在项目的nougat文件下的postprocessing.py文件中，有一行```nltk.download("words")```
+  1. 确定需要下载的包
+  1. 开个梯子解决
