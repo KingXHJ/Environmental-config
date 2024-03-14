@@ -59,7 +59,7 @@ FRP 无法直接穿过 GFW，会被墙的。
     ```
 
     1. [frpc.service](./example/frpc.service)
-    1. [frpc.service](./example/frps.service)
+    1. [frps.service](./example/frps.service)
 
 ## 启动
 
