@@ -27,7 +27,7 @@ FRP 无法直接穿过 GFW，会被墙的。
 
 1. 进入目录中
     ```sh
-    cd frp_0.51.3_linux_amd64.tar.gz
+    cd frp_0.51.3_linux_amd64
     ```
 
 ## 配置
@@ -42,7 +42,7 @@ FRP 无法直接穿过 GFW，会被墙的。
     cd /etc
     sudo mkdir ./frp
 
-    cd ~/frp_0.51.3_linux_amd64.tar.gz
+    cd ~/frp_0.51.3_linux_amd64
     sudo cp ./frpc.ini /etc/frp/
     sudo cp ./frps.ini /etc/frp/
 
