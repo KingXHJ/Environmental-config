@@ -37,6 +37,12 @@ FRP 无法直接穿过 GFW，会被墙的。
     sudo cp ./frps /usr/local/bin/
     ```
 
+    必要的情况需要将frpc(frps)改成可执行文件：
+    ```sh
+    sudo chmod +x frpc
+    sudo chmod +x frps
+    ```
+
 1. 将 ```frpc.ini(frps.ini)``` 移动至 ```/etc/frp/``` 。如果 ```/etc``` 目录下没有 ```frp``` 目录，则需要去创建：
     ```sh
     cd /etc
