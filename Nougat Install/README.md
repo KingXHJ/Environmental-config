@@ -43,5 +43,7 @@ Q&A:
   1. 在项目的nougat文件下的postprocessing.py文件，或者anaconda Linux的```/home/xhj/anaconda3/envs/nougat/lib/python3.9/site-packages/nougat/postprocessing.py```中，有一行```nltk.download("words")```
   1. 确定需要下载的包，如words，从[网上](https://www.nltk.org/nltk_data/)下载下来的包放在```/home/xhj/nltk_data/corpora/words```
   1. 或者开个梯子解决
+1. nougat pip install:
+  - 第二条有时候不好使，第一条会报奇怪错误，建议从好使的机器上将环境打包后，迁移使用
 
 
